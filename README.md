@@ -1,2 +1,3 @@
 # tiny-app
 A tiny react app
+Try to use react and mongondb built a small webapp...
