@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { getMovies } from "../services/fakeMovieService";
 import { getGenres } from "../services/fakeGenreService";
-import ListGroup from "../common/listGroup";
-import Pagination from "../common/pagination";
+import ListGroup from "./common/listGroup";
+import Pagination from "./common/pagination";
 import { paginate } from "../utils/paginate";
 import MoviesTable from "./moviesTable";
 import _ from "lodash";
