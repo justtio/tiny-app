@@ -35,6 +35,7 @@ class MoviesForm extends Form {
       .max(10)
       .label("Daily Rental Rate")
   };
+
   async componentDidMount() {
     const { data: genres } = await getGenres();
     this.setState({ genres });
