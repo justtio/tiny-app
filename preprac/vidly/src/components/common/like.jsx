@@ -4,7 +4,7 @@ const Like = props => {
   if (!props.liked) classes += "-o";
   return (
     <i
-      onClick={props.onLikeToggle}
+      onClick={props.onClick}
       className={classes}
       aria-hidden="true"
       style={{ cursor: "pointer" }}
